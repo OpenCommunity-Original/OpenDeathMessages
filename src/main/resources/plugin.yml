@@ -1,0 +1,19 @@
+name: OpenDeathMessages
+version: ${version}
+main: org.opencommunity.opendeathmessages.CustomDeathMessages
+author: Envel
+api-version: 1.18
+
+commands:
+  odm:
+   aliases: opendeathmessages
+   description: Command used for reloading.
+   permission: odm.reload
+   
+permissions: 
+  odm.reload:
+   description: Permission used for reloading.
+  odm.updates:
+   description: Permission used for sending update messages to ops.
+  odm.toggle:
+   description: Permission for toggline features in config.
